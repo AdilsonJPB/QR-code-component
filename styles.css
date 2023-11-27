@@ -10,29 +10,30 @@
     align-items: center;
   }
 
-  .container {
+  .qr-code {
     max-width: 350px;
     margin: 0 auto;
   }
 
-  .main {
+  .qr-code__conteudo {
     background-color: white;
     padding: 18px;
     border-radius: 10px;
   }
 
-  .main img  {
+  .qr-code__conteudo__imagem {
     width: 100%;
     border-radius: 10px;
   }
 
-  .textos {
+  .qr-code__conteudo__titulo,
+  .qr-code__conteudo__paragrafo {
     text-align: center;
     font-family: outfit;
     margin-top: 10px;
   }
 
-  .textos p {
+  .qr-code__conteudo__paragrafo {
     margin-top: 10px;
     color: gray;
     font-size: 14px;
